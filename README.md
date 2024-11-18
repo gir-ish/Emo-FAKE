@@ -41,6 +41,16 @@ cd APP
 streamlit run app.py
 ```
 
+### **5. If Model Doesn't Work, Download from Here**
+If the model isn't available in your project, you can download it from the following link:
+
+[**Download Saved CNN MMS Model**](https://example.com/saved_cnn_MMS_model.zip)
+
+After downloading:
+replace the model folder from new one
+
+---
+
 ---
 
 ## 🔗 How to Use
