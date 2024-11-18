@@ -11,7 +11,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 feature_extractor = Wav2Vec2FeatureExtractor.from_pretrained("facebook/mms-1b")
 wav2vec_model = Wav2Vec2Model.from_pretrained("facebook/mms-1b").to(device)
 
-saved_model_path = "saved_cnn_MMS_model"
+saved_model_path = "../CNN-MODEL"
 try:
     cnn_model = load_model(saved_model_path)
 except Exception as e:
