@@ -47,7 +47,7 @@ If the model isn't available in your project, you can download it from the follo
 [**Download Saved CNN MMS Model**](https://drive.google.com/file/d/1C70M9ooYKmIq00o0DnZpB88Lhg0vomMF/view?usp=sharing)
 
 After downloading:
-replace the model folder from new one
+replace the model folder from new one.
 
 ---
 
