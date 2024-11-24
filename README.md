@@ -39,6 +39,8 @@ Install the required Python libraries using the `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
 ## if this requirements doesn't work use requirements_new.txt this have lib version
+## by run this just 
+bash setup.sh
 ```
 ---
 
