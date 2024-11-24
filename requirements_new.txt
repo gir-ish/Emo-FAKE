@@ -1,0 +1,8 @@
+streamlit==1.25.0
+numpy==1.23.5
+torch>=2.0.0,<2.1
+torchaudio>=2.0.0,<2.1
+transformers==4.34.0
+tensorflow==2.14.0
+pillow<10,>=7.1.0
+watchdog>=2.1.5
