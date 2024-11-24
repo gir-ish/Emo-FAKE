@@ -39,6 +39,8 @@ Install the required Python libraries using the `requirements.txt` file:
 ```bash
 pip install -r requirements.txt
 ```
+--
+### if this requirements doesn't work use requirements_new.txt this have lib version
 
 ### **4. Run the Application**
 Navigate to the `APP` folder and launch the Streamlit app:
@@ -54,7 +56,7 @@ If the model isn't available in your project, you can download it from the follo
 
 After downloading:
 replace the model folder from new one.
-
+or use the .h5 model instead of .pb just replace the model path 
 ---
 
 ---
@@ -80,7 +82,7 @@ replace the model folder from new one.
 
 You can also use the application directly via the following link:
 
-[**Access the EmoFake Detection App on Hugging Face Spaces**](#)
+[**Access the EmoFake Detection App on Hugging Face Spaces**](https://huggingface.co/spaces/ggirishg/Emo-Fake-UI)
 
 ---
 
@@ -109,6 +111,7 @@ You can also use the application directly via the following link:
 ├── APP                  # Folder containing Streamlit application
 │   ├── app.py           # Main Streamlit application
 ├── CNN-MODEL  # Trained TensorFlow CNN model directory
+├── mode.h5    # model.h5 
 ├── requirements.txt     # Python dependencies
 ├── README.md            # Project documentation
 ```
